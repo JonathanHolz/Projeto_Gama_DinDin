@@ -2,3 +2,49 @@
     font-family: 'Ubuntu';
     font-style: normal;
 }
+
+header {
+
+    background-color: #2E948A;
+    max-width: 1fr;
+
+}
+
+ul {
+    
+}
+
+header ul {
+
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+header ul li {
+
+    padding: 5px;
+    a {
+
+    text-decoration: none;
+    color: #7ed957;
+}
+
+header ul li a {
+
+
+        text-decoration: none;
+        color: white;
+
+
+}
+
+}
+
+footer {
+
+    background-color: #2E948A;
+    
+}
