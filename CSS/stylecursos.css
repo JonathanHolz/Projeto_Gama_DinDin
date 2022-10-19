@@ -6,38 +6,115 @@
 header {
 
     background-color: #2E948A;
-    max-width: 1fr;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2px;
+    
 
 }
 
-header ul {
+nav > ul {
+
+    list-style-type: none;
+    align-items: center;
+
+
+}
+
+nav > ul > li {
+
+    display: inline;
+
+
+}
+
+nav > ul > li > a {
+
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+
+
+}
+
+.logo {
+    text-align: left;
+}
+
+.menu {
+    align-items: right;
+    align-self: flex-end;
+
+}
+
+.container_cursos {
 
     display: flex;
-    list-style: none;
-    text-decoration: none;
-    color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
 
 }
 
-header ul li {
-
-    padding: 5px;
-    text-decoration: none;
-    color: #7ed957;
-}
-
-header ul li a {
-
-
-        text-decoration: none;
-        color: white;
-
-
-}
-
-
-footer {
+.footer {
 
     background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+
     
+}
+
+.footer_nav ul {
+
+    list-style-type: none;
+
+}
+
+.footer_nav ul > li > a {
+
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+
+}
+
+#button_main {
+
+    background-color: #2E948A;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    margin: 1px;
+    padding: 20px 40px;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+
+    
+}
+
+.buttons__footer {
+
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+#button_footer1, #button_footer2 {
+
+    background-color: #2E948A;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    margin: 1px;
+    padding: 20px 40px;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+   
 }
