@@ -68,7 +68,7 @@ h1 {
     width: 65%;
     padding-bottom: 2%;
 }
-h3 {
+.meio > section > h3 {
     color: #FF4081;
     padding-top: 40px;
 }
@@ -90,20 +90,21 @@ h2 {
 }
 .secao4 {
     display: flex;
-    justify-content: center;
-}
-.secao4 > p {
-    width: 10px;
-    padding: 0px;
-}
-.secao5 {
-    display: flex;
-    justify-content: center;
 }
 .secao6 {
     background-color: #E5E5E5;
     display: flex;
-    text-align: center;
+    text-align: left;
+}
+.secao6 > section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h5 {
+    font-size: 200%;
+}
+.secao6 > section > p {
+    width: 70%;
 }
 h5 {
     color: #009688;
@@ -113,7 +114,8 @@ h5 {
     background-color: #E5E5E5;
 }
 .botao3 {
-    margin: 3%;
+    margin-top: 10%;
+    margin-bottom: 5%;
     border-radius: 50px 50px 50px 50px;
     border-color: #FF4081;
     color: #FF4081;
