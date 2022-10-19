@@ -48,6 +48,7 @@ h2 {
 }
 .secao2 {
     background-color: #E5E5E5;
+    align-content: space-between;
 }
 .secao2 h3 {
     color: #FF4081;

@@ -5,36 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso</title>
-    <link rel="stylesheet" href="curso.css">
+    <link rel="stylesheet" href="stylecurso.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Ubuntu&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <div>
-            <img class="logo_header" src="imagens/logo-header.png" alt="Logo DinDin">
-        </div>
-        <ul>
-
+        <section class="logo-header">
+        <img src="imagens/logo-header.png" alt="logo-header" width="170px" height="60px">
+        </section>
+        <nav class="menu">
+            <ul>
             <li>
-                <a href="">CURSOS</a>
+                <a href="#">Cursos</a>
             </li>
             <li>
-                <a href="">BLOG</a>
+                <a href="#">Blog</a>
             </li>
             <li>
-                <a href="">CONTATO</a>
+                <a href="#">Contato</a>
             </li>
         </ul>
+        </nav>
     </header>
     <main>
-        <div>
+        <section class="secao1">
+            <div>
             <h1>Investimento 
                 para iniciantes</h1>
-                <h3>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+            <p class="paragrafo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
                     totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </h3>
+                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+            </div>
+            <section>
+                <img src="imagens/ilustra-poupando.png">
+            </section>
+        </section>
+        <section class="secao2">
+            <section>
+            <iframe src="imagens/Gama.mp4" controls></iframe>
+            <h3>Aula 1</h3>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+
+                Ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+            </section">
+                <section>
+                <iframe src="imagens/Gama.mp4" controls></iframe>
+                <h3>Aula 2</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+
+                Ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+            </section>
+            <section>
+                <iframe src="imagens/Gama.mp4" controls></iframe>
+                <h3>Aula 2</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+
+                Ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+            </section>
+        </section>
+    </main>  
+    <footer class="footer">
+        <div>
+        <img class="logo_footer" src="imagens/logo-footer.png" alt="Logo DinDin">
         </div>
-        <video source="video" src="video" alt="video" width="462px" height="261px">
-            
+        <div class="footer_nav">       
+        <ul> 
+            <li>
+                <a href="">cursos</a>
+            </li>
+            <br>
+            <li>
+                <a href="">blog</a>
+            </li>
+            <br>
+            <li>
+                <a href="">contato</a>
+            </li>
+        </ul>
+      </div>
+      <div class="buttons__footer">
+
+        <button id="button_footer1">  quero ser prof  </button><br><br>
+        <button id="button_footer2">aqui tem outro link</button>
+
+      </div>
+    </footer>
 </body>
 </html>

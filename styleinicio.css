@@ -36,6 +36,11 @@ nav > ul > li > a {
     align-items: center;
     justify-content: center;
     padding: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.p1 {
+    width: 35%;
 }
 .meio {
     background-color: #F6F6F6;
@@ -52,7 +57,7 @@ nav > ul > li > a {
     border-radius: 50px;
     border-color: #FF4081;
     color: #FF4081;
-    padding: 1%;
+    padding: 2%;
     margin-top: 2%;
     cursor: pointer;
 }
@@ -60,7 +65,7 @@ h1 {
     color: #FF4081;
     font-size: 69px;
     line-height: 100%;
-    width: 30%;
+    width: 65%;
     padding-bottom: 2%;
 }
 h3 {
