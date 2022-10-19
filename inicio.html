@@ -1,60 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dindin</title>
-    <link href="inicio.css" rel="stylesheet">
+    <title>DinDin</title>
+    <link rel="stylesheet" href="teste.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Ubuntu&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <img class="logo_header"  src="imagens/logo-header.png" alt="Logo-dindin" width="100">
-        <nav>
-            <ul class="lista-header">
-              <li class="cursos"><a href="#">Cursos</a>
-              </li>
-              <li class="blog"><a href="#">Blog</a></li>
-              <li class="contato"><a href="#">Contato</a></li> 
-            </ul>
-          </nav>
+        <section class="logo-header">
+        <img src="imagens/logo-header.png" alt="logo-header" width="164px" height="64px">
+        </section>
+        <nav class="menu">
+            <ul>
+            <li>
+                <a href="#">Cursos</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Contato</a>
+            </li>
+        </ul>
+        </nav>
     </header>
-    < !-- Banner -- >
-    <div class="Banner">
-      <h1>Educação Financeira é tudo de bom</h1>
-      <h2>Vem comigo que te mostro por onde começar</h2>
-      <form>quero saber mais</form>
-    <img class="ilustra_banner" src="imagens/ilustra-banner.png" alt="ilustra-banner">
-  </div>
-  < !-- cursos -- >
-  <div class="seletor"> 
-      <div>
-      <img class="poupando" src="imagens/ilustra-poupando.png" alt="ilustra-poupando" width="288px" height="270px">
-      <div>
-      <img class="investimento" src="imagens/ilustra-investimento.png" alt="investimento" width="238px" height="270px">
-      </div>
-      <div>
-      <img class="independencia" src="imagens/ilustra-independencia.png" alt="independencia" width="187px" height="270px">
-      </div>
-    </div>
-    <div class="paragrafos">
-      <div>
-        <p class="p1">Investimento para iniciantes</p>
-      </div>
-      <div>
-        <p class="p2">Poupando e Rendendo</p>
-      </div>
-      <div>
-        <p class="p3">Independência Financeira</p>
-      </div>
-    </div>
-    <footer>
-      <img class="logo-footer"  src="imagens/logo-footer.png" alt="logo-footer" width="195px" height="68px">
-      <ul class="lista-footer">
-        <li class="cursos2"><a href="#">Cursos</a></li>
-        <li class="blog2"><a href="#">Blog</a></li>
-        <li class="contato2"><a href="#">Contato</a></li> 
-      </ul>
-    </footer>
+    <main>
+        <section class="inicial">
+            <section class="secao1">
+                <h1>Educação
+                    Financeira 
+                    é tudo de bom</h1>
+                <p>Vem comigo que te mostro 
+                    por onde começar</p>
+                <button class="botao1">quero saber mais</button>
+            </section>
+            <section>
+                <img src="imagens/ilustra-banner.png" alt="ilusta-banner">
+            </section>
+        </section>
+        <section class="meio">
+            <section class="secao2">
+                <img src="imagens/ilustra-poupando.png" width="288px" height="270px">
+                <h3>Investimento para iniciantes</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button class="botao2">começar agora</button>
+            </section>
+            <section class="secao2">
+                <img src="imagens/ilustra-investimento.png" width="238px" height="270px">
+                <h3>Poupando e Rendendo</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button class="botao2">começar agora</button>
+            </section>
+            <section class="secao2">
+                <img src="imagens/ilustra-independencia.png" width="187px" height="270px">
+                <h3>Independência Financeira</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button class="botao2">começar agora</button>
+            </section>
+        </section>
+        <section class="secao3">
+            <section>
+                <h2>O QUE FALAM SOBRE NÓS</h2>         
+            </section>
+        </section>
+        <section class="secao4">
+            <section>
+                <img src="imagens/icon-wally.png">
+                <h6>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</h6>
+            </section>
+            <section>
+                <img src="imagens/icon-jaden.png">
+                <h6>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</h6>
+            </section>
+            <section>
+                <img src="imagens/icon-whoopi.png">
+                <h6>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</h6>
+            </section>
+            <section>
+                <img src="imagens/icon-jane.png">
+                <h6>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</h6>
+            </section>
+        </section>
+    </main>
 </body>
 </html>

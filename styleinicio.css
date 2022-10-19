@@ -1,168 +1,79 @@
-*{
-    margin: 0;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    box-sizing: border-box;
+* {
+    font-family: 'ubuntu';
+    margin: 0px;
 }
-header{
-    position: absolute;
-    width: 100%;
-    height: 5%;
-    background: #2E948A;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+header {
+    background-color: #2E948A;
+    display: flex;
 }
-.logo_header {
-    position: absolute;
-    width: 6%;
-    height: 75%;
-    left: 82px;
-    top: 7px;
+footer {
+    background-color: #2E948A;
 }
-.lista-header {
-    color: #FDFDFD;
-    width: 80px;
-    height: 23px;
-    font-weight: 700px;
-    font-size: 20px;
-    line-height: 23px;
-    text-transform: uppercase;
-    list-style: none;
-    list-style-type: none;
- }
-.cursos
-{
-    position: absolute;
-    left: 80%;
-    top: 27%;
-}
-.blog
-{
-    position: absolute;
-    left: 85%;
-    top: 27%;
-}
-.contato
-{
-    position: absolute;
-    left: 89%;
-    top: 27%;
-}
-h1 {
-    position: absolute;
-    width: 488px;
-    height: 216px;
-    left: 206px;
-    top: 242px;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 69px;
-
-color: #FF4081;
-}
-h2 {
-    position: absolute;
-    width: 462px;
-    height: 62px;
-    left: 207px;
-    top: 477px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 31px;
-    color: #555555;
-}
-form {
-    position: absolute;
-    width: 216px;
-    height: 20.27px;
-    left: 233px;
-    top: 585.5px;    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 31px;
-    color: #FF4081;
-    /* Borda */
-    padding-left: 20px;
+.logo-header{
+    padding-left: 5%;
     padding-top: 5px;
-    box-sizing: border-box;
-    position: absolute;
-    width: 230px;
-    height: 50px;
-    left: 207px;
-    top: 577px;
-    border: 2px solid #FF4081;
-    border-radius: 62px;
+    padding-bottom: 3px;
 }
+nav > ul {
+    list-style: none;
+    padding-top: 10%;
 
-.ilustra_banner
-{
-    position: absolute;
-    left: 50.9%;
-    right: 14.31%;
-    top: 242px;
-    bottom: 76.13%;
 }
-.seletor
-{
-    position: absolute;
-    left: 0px;
-    top: 829px;
-    width: 100%;
-    background: #F7F7F7;
+nav > ul > li {
+    display: inline;
 }
-.seletor div
-{
+nav > ul > li > a {
+    color: #FDFDFD;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.menu {
+    left: 1500px;
+    position: absolute;
+}
+.inicial {
     display: flex;
     align-items: center;
-    width: 100%;
-    justify-content: space-around;
-    padding: 109px;
-    padding-left: 280px;
+    justify-content: center;
+    padding: 5%;
 }
-.paragrafos div p
-{
-    position: absolute;
-    width: 344px;
-    height: 29px;
-    top: 550px;
-    font-weight: 700;
-    font-size: 25px;
+.meio {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.secao2 {
+    padding: 3%;
+}
+.botao1 {
+    background-color: white;
+    border-radius: 50px;
+    border-color: #FF4081;
     color: #FF4081;
+    padding: 2%;
 }
-.p1
-{
-    left: 270px;
+h1 {
+    color: #FF4081;
+    font-size: 69px;
+    line-height: 100%;
 }
-.p2
-{
-    left: 830px;
+h3 {
+    color: #FF4081;
+    padding-top: 40px;
 }
-.p3
-{
-    left: 1440px;
+.secao2 > p {
+    padding: 30px;
 }
-footer
-{
-    position: absolute;
-    background-color: #419488;
-    width: 100%;
-    height: 10%;
+.botao2 {
+    padding: 4%;
+    background-color: #FF4081;
+    border-radius: 50px;
+    border-color: #FF4081;
 }
-.logo-footer
-{
-    position: absolute;
-    left: 200px;
-    margin-top: 20px;
-}
-.lista-footer
-{
-    position: absolute;
-    font-size: 20px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    left: 45%;
-    margin: 20px;
+h2 {
+    color: #2E948A;
+    font-size: 30px;
+    padding: 10%;
 }
