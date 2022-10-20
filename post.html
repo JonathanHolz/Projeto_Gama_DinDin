@@ -5,27 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post</title>
-    <link rel="stylesheet" href="/desafio-gama-grupo-7/CSS/stylepost.css">
+    <link rel="stylesheet" href="/desafio-gama-grupo-7/stylepost.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Ubuntu&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <div>
-            <img class="logo_header" src="logo-header.png" alt="Logo DinDin">
-        </div>
-        <ul>
-
-            <li>
-                <a href="">CURSOS</a>
-            </li>
-            <li>
-                <a href="">BLOG</a>
-            </li>
-            <li>
-                <a href="">CONTATO</a>
-            </li>
-        </ul>
+        <section class="logo-header">
+        <img src="imagens/logo-header.png" alt="logo-header" width="170px" height="60px">
+        </section>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="curso.html">Cursos</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        </nav>
     </header>
-    
     <main>
         
         <div>
@@ -129,27 +133,27 @@
         </div>
 
     </main>
-    <footer>
+    <footer class="footer">
         <div>
-        <img class="logo_footer" src="imagens/logo-footer.png" alt="Logo DinDin">
+        <img class="logo_footer" src="/desafio-gama-grupo-7/imagens/logo-footer.png" alt="Logo DinDin">
         </div>
-        <ul>
-      <div>        
+        <div class="footer_nav">       
+        <ul> 
             <li>
-                <a href="">CURSOS</a>
+                <a href="curso.html">cursos</a>
             </li>
             <li>
-                <a href="">BLOG</a>
+                <a href="blog.html">blog</a>
             </li>
             <li>
-                <a href="">CONTATO</a>
+                <a href="contato.html">contato</a>
             </li>
         </ul>
       </div>
-      <div>
+      <div class="buttons__footer">
 
-        <button>quero ser prof</button>
-        <button>aqui tem outro link</button>
+        <button id="button_footer1">  quero ser prof  </button><br><br>
+        <button id="button_footer2">aqui tem outro link</button>
 
       </div>
     </footer>

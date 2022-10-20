@@ -1,16 +1,84 @@
-*{
-    font-family: 'Ubuntu';
-    font-style: normal;
+* {
+    font-family: 'ubuntu';
+    margin: 0px;
 }
-
 header {
-
     background-color: #2E948A;
+    display: flex;
+}
+footer {
+    background-color: #2E948A;
+}
+.logo-header{
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+nav > ul {
+    list-style: none;
+    padding-top: 10%;
 
 }
-
-footer {
+nav > ul > li {
+    display: inline;
+}
+nav > ul > li > a {
+    color: #FDFDFD;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.menu {
+    left: 1500px;
+    position: absolute;
+}
+/**/
+.footer {
 
     background-color: #2E948A;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+}
+.footer_nav ul {
+
+    list-style-type: none;
+
+}
+.footer_nav ul > li > a {
+
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+#button_main {
+
+    background-color: #2E948A;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    margin: 1px;
+    padding: 20px 40px;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+}
+.buttons__footer {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#button_footer1, #button_footer2 {
+
+    background-color: #2E948A;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    margin: 1px;
+    padding: 20px 40px;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
 }
