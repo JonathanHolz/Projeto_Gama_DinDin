@@ -66,6 +66,18 @@ nav > ul > li > a {
     margin: 2%;
     color: #FF4081;
 }
+
+a {
+    color: #FF4081;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#FF4081; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
 .footer {
 
     background-color: #2E948A;

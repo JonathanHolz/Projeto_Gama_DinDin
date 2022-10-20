@@ -88,8 +88,23 @@ nav > ul > li > a {
     flex-direction: column;
     justify-content: center;
     padding: 2%;
+    align-items: flex-start;
 
 }
+
+#title_h2 {
+
+    color: #FF4081;
+    font-weight: 700;
+
+}
+
+#container_cursossec {
+    display: inline;
+    align-items: flex-start;
+    
+}
+
 
 .footer {
 
