@@ -5,30 +5,25 @@
 header {
     background-color: #2E948A;
     display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding: 5px;
 }
 footer {
     background-color: #2E948A;
 }
-.logo-header{
-    padding-left: 5%;
-    padding-top: 5px;
-    padding-bottom: 3px;
-}
 nav > ul {
     list-style: none;
-    padding-top: 10%;
-
 }
 nav > ul > li {
     display: inline;
+    padding-left: 10px;
 }
 nav > ul > li > a {
     color: #FDFDFD;
     text-decoration: none;
-    padding-left: 30px;
-}
-.menu {
-    margin-left: 60%;
 }
 .inicial {
     display: flex;
