@@ -188,22 +188,22 @@ h5 {
     cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
-body {
+    main {
     max-width: 550px 
 }
 }
 @media only screen and (max-width: 768px) {
-    body {
+    main {
         max-width: 700px 
 }
 }
 @media only screen and (max-width: 992px) {
-    body {
+    main {
         max-width: 900px 
 }
 }
 @media only screen and (max-width: 1200px) {
-    body {
+    main {
         max-width: 1150px 
 }
 }
