@@ -90,6 +90,12 @@ padding-right: 3% ;
 
 }
 
+section img {
+
+max-width: 90%;
+
+}
+
 /**/
 
 .footer {
