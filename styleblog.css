@@ -11,67 +11,6 @@ header {
     justify-content: space-around;
     padding: 5px;
 }
-footer {
-    background-color: #2E948A;
-}
-nav > ul {
-    list-style: none;
-}
-nav > ul > li {
-    display: inline;
-    padding-left: 10px;
-}
-nav > ul > li > a {
-    color: #FDFDFD;
-    text-decoration: none;
-}
-.secao1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
-}
-.secao1 > section > h2 {
-    color: #009688;
-    font-size: 300%;
-    width: 40%;
-    margin-bottom: 5%;
-}
-.secao1 > section > p {
-    width: 30%;
-}
-.secao2 {
-    background-color: #E5E5E5;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    padding: 10%;
-}
-.secao2 > section {
-    flex: 50%;
-}
-.secao2 > section > p {
-    margin-left: 25%;
-    width: 50%;
-    text-align: left;
-    margin-bottom: 10%;
-}
-.secao2 > section > h3 {
-    margin: 2%;
-    color: #FF4081;
-}
-
-a {
-    color: #FF4081;
-    text-decoration: none;
-}
-
-a:hover {
-    color:#FF4081; 
-    text-decoration:none; 
-    cursor:pointer;  
-}
-
 .footer {
 
     background-color: #2E948A;
@@ -86,13 +25,14 @@ a:hover {
 .footer_nav ul {
 
     list-style-type: none;
-
+}
+.footer_nav ul > li{
+    padding: 5%;
 }
 .footer_nav ul > li > a {
 
     color: white;
     text-decoration: none;
-    padding-right: 20px;
 }
 #button_main {
 

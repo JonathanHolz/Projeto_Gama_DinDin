@@ -11,61 +11,6 @@ header {
     justify-content: space-around;
     padding: 5px;
 }
-footer {
-    background-color: #2E948A;
-}
-nav > ul {
-    list-style: none;
-}
-nav > ul > li {
-    display: inline;
-    padding-left: 10px;
-}
-nav > ul > li > a {
-    color: #FDFDFD;
-    text-decoration: none;
-}
-.secao1 {
-    display: flex;
-    align-items: center;
-    margin: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: left;
-}
-.paragrafo {
-    width: 50%;
-}
-h1 {
-    color: #FF4081;
-    font-size: 300%;
-    width: 50%;
-
-}
-.secao2 {
-    background-color: #F6F6F6;
-    display: flex;
-    padding-left: 25%;
-    padding-right: 20%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.secao2 > section > h2 {
-    padding-bottom: 2%;
-    padding-left: 10%;
-    text-align: left;
-    color: #FF4081;
-    padding-top: 2%;
-}
-.secao2 > section > p {
-    width: 70%;
-    text-align: left;
-    padding-left: 10%;
-    padding-top: 4%;
-}
-.borda {
-    padding-left: 10%;
-}
 .footer {
 
     background-color: #2E948A;
@@ -80,13 +25,14 @@ h1 {
 .footer_nav ul {
 
     list-style-type: none;
-
+}
+.footer_nav ul > li{
+    padding: 5%;
 }
 .footer_nav ul > li > a {
 
     color: white;
     text-decoration: none;
-    padding-right: 20px;
 }
 #button_main {
 
