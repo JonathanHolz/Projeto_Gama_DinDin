@@ -1,7 +1,6 @@
 * {
     font-family: 'ubuntu';
     margin: 0px;
-    box-sizing: border-box;
 }
 header {
     background-color: #2E948A;
@@ -26,6 +25,7 @@ nav > ul > li > a {
     color: #FDFDFD;
     text-decoration: none;
 }
+
 .secao1 {
     display: flex;
     align-items: center;
