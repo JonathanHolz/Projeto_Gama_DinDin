@@ -118,3 +118,23 @@ h1 {
     border-radius: 50px 50px 50px 50px;
     cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 550px 
+    }
+    }
+    @media only screen and (max-width: 768px) {
+        body {
+            max-width: 700px 
+    }
+    }
+    @media only screen and (max-width: 992px) {
+        body {
+            max-width: 900px 
+    }
+    }
+    @media only screen and (max-width: 1200px) {
+        body {
+            max-width: 1150px 
+    }
+    }
