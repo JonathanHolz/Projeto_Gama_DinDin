@@ -26,6 +26,78 @@ nav > ul > li > a {
     text-decoration: none;
 }
 
+input [type=text] {
+
+    border-radius: 5px;
+
+
+}
+
+#form_border {
+
+    border-radius: 5px;
+
+
+}
+
+input [type=text] {
+
+    border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+textarea {
+
+resize: none;
+border-radius: 5px;
+
+}
+
+.botao2 {
+
+
+background-color: #FF4081;
+border-radius: 50px;
+border-color: #FF4081;
+cursor: pointer;
+color: white;
+padding-left: 3% ;
+padding-right: 3% ;
+
+}
+
+
+.layout1 h2 {
+
+    color: #FF4081;
+
+}
+
+.maincontato {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espacamento {
+
+    padding: 20px;
+
+
+}
+
+section img {
+
+max-width: 90%;
+
+}
+
+/**/
+
+
+
 /**/
 
 .footer {
