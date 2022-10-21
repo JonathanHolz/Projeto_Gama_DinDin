@@ -150,11 +150,13 @@ h5 {
 
     list-style-type: none;
 }
+.footer_nav ul > li{
+    padding: 5%;
+}
 .footer_nav ul > li > a {
 
     color: white;
     text-decoration: none;
-    padding-right: 50%;
 }
 #button_main {
 

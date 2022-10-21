@@ -72,13 +72,14 @@ h2 {
 .footer_nav ul {
 
     list-style-type: none;
-
+}
+.footer_nav ul > li{
+    padding: 5%;
 }
 .footer_nav ul > li > a {
 
     color: white;
     text-decoration: none;
-    padding-right: 20px;
 }
 #button_main {
 

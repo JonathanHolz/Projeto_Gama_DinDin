@@ -1,6 +1,7 @@
 * {
     font-family: 'ubuntu';
     margin: 0px;
+    box-sizing: border-box;
 }
 header {
     background-color: #2E948A;
@@ -71,7 +72,6 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
-
 .footer {
 
     background-color: #2E948A;
@@ -86,13 +86,14 @@ a:hover {
 .footer_nav ul {
 
     list-style-type: none;
-
+}
+.footer_nav ul > li{
+    padding: 5%;
 }
 .footer_nav ul > li > a {
 
     color: white;
     text-decoration: none;
-    padding-right: 20px;
 }
 #button_main {
 
