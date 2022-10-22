@@ -189,17 +189,3 @@ a:hover {
         max-width: 1150px 
 }
 }
-
-.secao1 > section > img {
-    width: 120%;
-}
-.secao1 > section > h2 {
-    font-size: 150%;
-}
-.secao1 > section > p {
-    font-size: 90%;
-    width: 100%;
-}
-.cinza {
-    max-width: 100%;
-}
