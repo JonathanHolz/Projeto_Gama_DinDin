@@ -156,15 +156,26 @@ max-width: 90%;
     main {
     max-width: 550px 
 }
+.mensagem {
+    width: 100%;
+}
 }
 @media only screen and (max-width: 768px) {
     main {
         max-width: 700px 
 }
 }
+.mensagem {
+    width: 100%;
+}
+
+
 @media only screen and (max-width: 992px) {
     main {
         max-width: 900px 
+}
+.mensagem {
+    width: 100%;
 }
 }
 @media only screen and (max-width: 1200px) {
