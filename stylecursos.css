@@ -114,15 +114,33 @@ h2 {
     main {
     max-width: 550px 
 }
+.poupando {
+    width: 100%;
+}
+.secao2 {
+    display: inline;
+}
 }
 @media only screen and (max-width: 768px) {
     main {
         max-width: 700px 
 }
+.poupando {
+    width: 100%;
+}
+.secao2 {
+    display: inline;
+}
 }
 @media only screen and (max-width: 992px) {
     main {
         max-width: 900px 
+}
+.poupando {
+    width: 100%;
+}
+.secao2 {
+    display: inline;
 }
 }
 @media only screen and (max-width: 1200px) {
