@@ -128,19 +128,78 @@ a:hover {
     main {
     max-width: 550px 
 }
+
+.secao1 > section > img {
+    width: 120%;
+}
+.secao1 > section > h2 {
+    font-size: 150%;
+}
+.secao1 > section > p {
+    font-size: 90%;
+    width: 100%;
+}
+.cinza {
+    max-width: 100%;
+}
+
 }
 @media only screen and (max-width: 768px) {
     main {
         max-width: 700px 
 }
+
+.secao1 > section > img {
+    width: 120%;
+}
+.secao1 > section > h2 {
+    font-size: 150%;
+}
+.secao1 > section > p {
+    font-size: 90%;
+    width: 100%;
+}
+.cinza {
+    max-width: 100%;
+}
+
 }
 @media only screen and (max-width: 992px) {
     main {
         max-width: 900px 
 }
+
+.secao1 > section > img {
+    width: 120%;
+}
+.secao1 > section > h2 {
+    font-size: 150%;
+}
+.secao1 > section > p {
+    font-size: 90%;
+    width: 100%;
+}
+.cinza {
+    max-width: 100%;
+}
+
 }
 @media only screen and (max-width: 1200px) {
     main {
         max-width: 1150px 
 }
+}
+
+.secao1 > section > img {
+    width: 120%;
+}
+.secao1 > section > h2 {
+    font-size: 150%;
+}
+.secao1 > section > p {
+    font-size: 90%;
+    width: 100%;
+}
+.cinza {
+    max-width: 100%;
 }

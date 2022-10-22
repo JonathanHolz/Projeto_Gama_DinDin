@@ -122,19 +122,92 @@ h1 {
     main {
     max-width: 550px 
 }
+h1 {
+    font-size: 100%;
+}
+p {
+    font-size: 80%;
+    width: 100%;
+}
+.secao1 {
+    display: inline;
+    text-align: center;
+}
+.secao2 {
+    display: inline;
+}
+.poupando {
+    width: 100%;
+}
+.video {
+    width: 100%;
+}
 }
 @media only screen and (max-width: 768px) {
     main {
         max-width: 700px 
+}
+h1 {
+    font-size: 100%;
+}
+p {
+    font-size: 80%;
+    width: 100%;
+}
+.secao1 {
+    display: inline;
+    text-align: center;
+}
+.secao2 {
+    display: inline;
+}
+.poupando {
+    width: 100%;
+}
+.video {
+    width: 100%;
 }
 }
 @media only screen and (max-width: 992px) {
     main {
         max-width: 900px 
 }
+h1 {
+    font-size: 100%;
+}
+p {
+    font-size: 80%;
+    width: 100%;
+}
+.secao1 {
+    display: inline;
+    text-align: center;
+}
+.secao2 {
+    display: inline;
+}
+.poupando {
+    width: 100%;
+}
+.video {
+    width: 100%;
+}
 }
 @media only screen and (max-width: 1200px) {
     main {
         max-width: 1150px 
+}
+h1 {
+    font-size: 100%;
+}
+p {
+    font-size: 80%;
+    width: 100%;
+}
+.poupando {
+    width: 100%;
+}
+.video {
+    width: 100%;
 }
 }
