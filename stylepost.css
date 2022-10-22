@@ -171,23 +171,42 @@ margin-bottom: 10%;
     border-radius: 50px 50px 50px 50px;
     cursor: pointer;
 }
+
+
 @media only screen and (max-width: 600px) {
-    main {
-    max-width: 550px 
+    * {
+    max-width: 550px
 }
+
+.meio {
+    display: inline;
+}
+
 }
 @media only screen and (max-width: 768px) {
-    main {
+    * {
         max-width: 700px 
+}
+
+.meio {
+    display: inline;
 }
 }
 @media only screen and (max-width: 992px) {
-    main {
+    * {
         max-width: 900px 
 }
+
+.meio {
+    display: inline;
+}
+
 }
 @media only screen and (max-width: 1200px) {
-    main {
+    * {
         max-width: 1150px 
+}
+.meio {
+    display: inline;
 }
 }
