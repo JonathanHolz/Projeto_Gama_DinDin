@@ -157,7 +157,7 @@ max-width: 90%;
     max-width: 550px 
 }
 .mensagem {
-    width: 100%;
+    width: 80%;
 }
 }
 @media only screen and (max-width: 768px) {
@@ -166,7 +166,7 @@ max-width: 90%;
 }
 }
 .mensagem {
-    width: 100%;
+    width: 80%;
 }
 
 
@@ -175,7 +175,7 @@ max-width: 90%;
         max-width: 900px 
 }
 .mensagem {
-    width: 100%;
+    width: 80%;
 }
 }
 @media only screen and (max-width: 1200px) {
